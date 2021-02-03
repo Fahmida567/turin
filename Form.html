@@ -4,8 +4,10 @@
 	<title></title>
 </head>
 <body>
+
 	<div style="background-color:lightblue;color:white;padding:20px;">
   <h2></h2>
+  <table border="5"align="center"  width="10" height="70%">
   <p>
 
 	<p><span style="color:red;font-weight:bold">*</span><span style="color:black;font-weight:bold">- Denotes required information</span</p>
@@ -55,7 +57,7 @@
   <input type="text" id="fax" name="fax" ><br>
   <label for="email">Email<span style="color:red;font-weight:bold">*</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
   <input type="text" id="email" name="email" ><br>
-  <label for="damount">donation amount<span style="color:red;font-weight:normal;">*</span></label>
+  <label for="damount">donation amount<span style="color:red;font-weight:normal;">*</span><small><span style="color:grey;font-weight:bold">(Check a button or type in your amount)</small></label></span>
   
   <input type="radio" id="none" name="none" value="none">
   <span style="color:black;"></span><label for="none">None</span></label>
@@ -72,7 +74,7 @@
 <p>
   <span style="color:black;font-weight:bold"><label for="oamount">Other Amount $</span></label>
   <input type="text" id="oamount" name="oamount" ><br></span></p>
-  <span style="color:black;font-weight:bold"><label for="redonation">Recurring Donation</span></label>
+  <span style="color:black;font-weight:bold"><label for="redonation">Recurring Donation</span><small><span style="color:grey;font-weight:bold">(Check if yes)</small></label></span>
   <input type="checkbox" id="redonation" name="redonation" value="redonation">
   <span style="color:black;font-weight:bold"><label for="redonation"> I am interested in giving on a regular basis</span></label><br>
  <span style="color:black;font-weight:bold"><label for="mcc">Monthly Credit Card &nbsp;$</span></label>
@@ -122,10 +124,11 @@
   <span style="color:black;font-weight:bold"><label for="iyy"> My employer offers a matching gift program.I will mail the matching gift form.</span></label><br>
  <input type="checkbox" id="iyy" name="hg" value="iyy">
   <span style="color:black;font-weight:bold"><label for="iyy"> Please save the cost of acknowledging this gift by not mailing  a thank you letter</span></label><br>
-  <span style="color:black;font-weight:bold"><label for="cmnts">Comments</span></label>
-  <input type="text" id="cmnts" name="cmnts" ><br>
+  <span style="color:black;font-weight:bold"><label for="cmnts">Comments</span><small><span style="color:grey;font-weight:bold">(Please type any questions or feedbachk here)</small></label></span>
+<br> <textarea rows="4" cols="50" name="comment" form="usrform">
+Enter text here...</textarea>
 
-  <span style="color:black;font-weight:bold"><label for="hmn">How may we contact you?</span></label><br>
+  <br><span style="color:black;font-weight:bold"><label for="hmn">How may we contact you?</span></label><br>
   <input type="checkbox" id="iyy" name="hg" value="iyy">
   <span style="color:black;font-weight:bold"><label for="iyy"> Email</span></label><br>
   <input type="checkbox" id="iyy" name="hg" value="iyy">
@@ -137,8 +140,27 @@
   <span style="color:black;font-weight:bold"><label for="iyy">Fax</span></label><br>
 
   <p><span style="color:grey;font-weight:bold" >I would like to receive newsletters and information about special events by:</span></p>
+    <input type="checkbox" id="iyy" name="hg" value="iyy">
+   <span style="color:black;font-weight:bold"><label for="iyy"> Email</span></label><br>
+  <input type="checkbox" id="iyy" name="hg" value="iyy">
+  <span style="color:black;font-weight:bold"><label for="iyy">Postal mail</span></label><br><br>
+
+  <input type="checkbox" id="iyu" name="hg" value="iyy">
+  <span style="color:grey;font-weight:bold"><label for="iyy"> I would like information about volunteering with the</span></label>
+  
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="reset">
+ <input type="button" onclick="alert('Thank you!')" value="Continue">
+ <br><img src=" https://pdfpagelock.com/img/icons/lock.png" alt="lock" width="20" height="20"><span style="color:black;font-weight:bold" >Donate online with confidence .You are on a secure server</span>
+  <p><span style="color:black;font-weight:bold" >If you have any problems or questios please conact </span><span style="color:grey;font-weight:bold" >support </span><p/>
+ 
 
 
+
+  
+
+
+  
 
 
   	</form> 
